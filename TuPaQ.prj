@@ -1,0 +1,96 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1828992105" file="D:\TuPaQ V1 Standalone\TuPaQ.prj" location="D:\TuPaQ V1 Standalone" name="TuPaQ" target="target.mlapps" target-name="Package App">
+    <param.appname>TuPaQ</param.appname>
+    <param.authnamewatermark>Mohammed Abdelsamea</param.authnamewatermark>
+    <param.email>m.abdelsamea@aun.edu.eg</param.email>
+    <param.company>Nottingham University</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\TIDemo\for_testing\splash.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Fuzzy Logic Toolbox</item>
+      <item>Image Processing Toolbox</item>
+      <item>Mapping Toolbox</item>
+      <item>Neural Network Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>23</item>
+      <item>17</item>
+      <item>11</item>
+      <item>12</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.4</item>
+      <item>2.3.1</item>
+      <item>10.2</item>
+      <item>4.6</item>
+      <item>11.1</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>D:\TuPaQ V1 Standalone</param.output>
+    <param.guid>5b33901f-bca8-4746-89e5-0d3c0e02b387</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\TIDemo.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\DetectLymph.m</file>
+      <file>${PROJECT_ROOT}\EpitheluimSegm.m</file>
+      <file>${PROJECT_ROOT}\getGridPosition.m</file>
+      <file>${PROJECT_ROOT}\getMinimum.m</file>
+      <file>${PROJECT_ROOT}\Istogram.mat</file>
+      <file>${PROJECT_ROOT}\mmomALI.m</file>
+      <file>${PROJECT_ROOT}\NetworkTraining.m</file>
+      <file>${PROJECT_ROOT}\neuronsNormal.mat</file>
+      <file>${PROJECT_ROOT}\neuronsTumour.mat</file>
+      <file>${PROJECT_ROOT}\NormRGBHist.m</file>
+      <file>${PROJECT_ROOT}\projPointOnLine.m</file>
+      <file>${PROJECT_ROOT}\SOMM.m</file>
+      <file>${PROJECT_ROOT}\SPFLFCM.m</file>
+      <file>${PROJECT_ROOT}\TargetImage.mat</file>
+      <file>${PROJECT_ROOT}\TIDemo.fig</file>
+      <file>${PROJECT_ROOT}\total_clean.m</file>
+      <file>${PROJECT_ROOT}\total_cutter.m</file>
+      <file>${PROJECT_ROOT}\total_prepare.m</file>
+      <file>${PROJECT_ROOT}\TumorTesting.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\" name="TuPaQ V1 Standalone" optional="false">D:\TuPaQ V1 Standalone</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
