@@ -65,7 +65,7 @@ If you find TuPaQ useful and use it in your publications, please cite the follow
 
 M. M. Abdelsamea, A. Pitiot, R. Barbora, J. Besusparis, A. Laurinavičius, M. Ilyas, A cascade-learning approach for automated segmentation of tumor epithelium in colorectal cancer, Expert Systems with Applications, Volume 118, 2019, Pages 539-552.
 
-M. M. Abdelsamea, R. Barbora, J. Besusparis, S. Cham, A. Pitiot, A. Laurinavičius, M. Ilyas, Tumour Parcellation and Quantification (TuPaQ): a tool for refining biomarker analysis through rapid and automated segmentation of tumour epithelium, submitted to Histopathology, 2019.
+M. M. Abdelsamea, R. Barbora, J. Besusparis, S. Cham, A. Pitiot, A. Laurinavičius, M. Ilyas, Tumour Parcellation and Quantification (TuPaQ): a tool for refining biomarker analysis through rapid and automated segmentation of tumour epithelium, to be submitted to Histopathology, 2018.
 
 Contact
 
