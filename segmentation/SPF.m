@@ -1,24 +1,3 @@
-% This Matlab file demomstrates the proposed the Sign Pressure Force Level Set Function based Local Fuzzy C-means (SPF-LFCM) 
-%Regio Detection and Segmentation model
-%
-%
-% the main function to be called is SPFLFCM(filename, Iter, sigma);
-%
-% filename is the file name of the original image to be segmented
-% MaxIter is the maximum number of iteration
-% segma is to control the smothness of the level set function in each
-% iteration 
-% 
-% By
-% Mohammed Abdelsamea (Email: mohammed.abdelsamea@nottingham.ac.uk)
-%% the SPFLFCM parameters
-%e.g., SPFLFCM('11.tif', 100, 1.5);
-% se = strel('ball',15,15);
-% I2 = imdilate(Mas,se);
-% imtool(I2)
-%I=Epitheluim_bw;
-%I(I2<250)=0;
-%imtool(I)
 function [LL]= SPF(Mas,II, MaxIter, sigma)
 %tic
 KernelSize = 2*round(2*sigma)+1;
