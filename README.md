@@ -43,6 +43,10 @@ Phase 2: Tumour Quantification (Nuceli counts)
 
 3-	Press to tumour quantification, for example to calculate the ratio between the number of tumour Nuclei and total number of Nuclei in input image.
 
+Stain Normalization phase:
+
+Press “Reference Image” to select a new reference image for stain normalization.
+
 Training phase:
 
 1-	Tick to start a new training session based on your own datasets including some tumour epithelim and stroma cases.
@@ -54,10 +58,6 @@ Training phase:
 4-	Set the learning rate of the Classifier (0.1 is recommended to reduce the possibility of trapping to local minima).
 
 5-	Press “SOMnormal” to select one folder that contains your normal cases. Please make sure to store your training images original image followed by its associate binary mask (that indicates the normal regions), consecutively. The same should be done with “SOMtumour” button for a separate folder contains your tumour training samples.
-
-Stain Normalization phase:
-
-Press “Reference Image” to select a new reference image for stain normalization.
 
 Disclaimer
 
