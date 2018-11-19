@@ -1,25 +1,4 @@
-% MOMENTS
-%
-% Function calculates the moments of a binary image and returns 
-% the centroid, the angle of axis of minimum inertia, and a measure 
-% of 'roundness'.  The function assumes that there is only one object
-% in the binary image.
-%
-% function [centroid, thetamin, roundness] = moments(im)
-%
-% Argument:  im   - a binary image containing values of 0 or 1
-%
-% Returns:   centroid  - a 2 element vector
-%            thetamin  - the angle of axis of minimum inertia (radians)
-%            roundness - ratio of minimum inertia/maximum inertia.
-%
-% Note that positive x is to the right and positive y is downwards
-% thus angles are positive clockwise.
-%
-% The function also displays the image and overlays the position of
-% the centroid and the axis of minimum inertia.
-
- function [] = OriginalmomentsALI()
+function [] = OriginalmomentsALI()
 imagefiles = dir('*.png');      
 nfiles = length(imagefiles);    % Number of files found
 FeatureVector=[];
